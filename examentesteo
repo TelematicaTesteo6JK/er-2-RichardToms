@@ -1,0 +1,35 @@
+
+Ricardo Tomas Regalado Guerrero
+
+1-	Diseña las especificaciones de un ejercicio que requiera el uso de las técnicas de partición de equivalencia y análisis de valores límite.
+
+en una tienda de que renta peliculas el precio por pelicula cambia dependiendo de la cantidad de peliculas que el usuario rente. el costo inicial por una pelicula empiesa en 20, conforme renta mas, disminulle al rentar 4 al mismo tiempo el precio disminulle a 15 pesos, el usuario podra seguir rentando hasta llegar a 6 al mismo tiempo en ese momento el precio por pelicula disminuira a 10 pesos por pelicula, el usuario podra rentar hasta 9 peliculas con ese precio, de ahi en adelante el precio por pelicula sera de 8 pesos.
+
+INVALIDO		0 PELICULAS
+valido			1-3 peliculas
+valido			4-5 peliculas
+valido			6-9 peliculas
+valido			10.. peliculas
+
+
+TEST DATA				EXPECTED
+0 peliculas				0 pesos
+4 peliculas 			15 pesos
+6 peliculas 			10 pesos
+10 peliculas 			8 pesos
+
+
+2-	Indica a qué nivel de testeo corresponde dicho ejercicio y describe brevemente por qué.
+Entregable: Archivo nuevo de texto que incluya los puntos 1 y 2:
+
+testeo no funcional
+
+
+
+
+
+
+
+
+Ejercicio: examen
+Nivel de prueba: _________, porque ______
